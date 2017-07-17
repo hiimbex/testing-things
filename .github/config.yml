@@ -10,7 +10,7 @@ repository:
   description: this repo is radical dude ugh
   has_projects: false
 
-defaultTitles:
+requestInfodefaultTitles:
   - Update README.md
   - Updates
 
