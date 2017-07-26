@@ -16,9 +16,10 @@ module.exports = {
         path: file.filename,
         ref: branch
       }));
+        
       const text = Buffer.from(content.data.content, 'base64').toString();
 
-      standard.lintText(text, {cwd: '', fix: true, filename: file.filename}, (err, results) => {
+      standard.lintText(text, {cwd: "", fix: true, filename: file.filename}, (err, results) => {
         console.log(results);
         return Promise.all(results.results.map(result => {
           context.github.repos.updateFile(context.repo({
@@ -32,4 +33,4 @@ module.exports = {
       });
     }));
   }
-szdxfcvgbhjnkml
+
