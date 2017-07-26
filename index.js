@@ -7,4 +7,4 @@ console.log('kk')
 console.log('')
 
 console.log('test')
-async function foo(){console.log('test') }
+async function foo () { console.log('test') }
