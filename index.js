@@ -1,5 +1,5 @@
 const standard = require('standard')
-
+;
 module.exports = {
   async push(event, context) {
     const push = event.payload
