@@ -1,0 +1,10 @@
+cwd: ''       #current working directory (default: process.cwd())
+filename: ''  # path of the file containing the text being linted (optional, though some eslint plugins require it)
+fix: false   # automatically fix problems
+globals: []  # custom global variables to declare
+plugins: []  # custom eslint plugins
+envs: []     # custom eslint environment
+parser: 'babel-eslint'    # custom js parser (e.g. babel-eslint)
+
+whiteList: 
+  - fundex.js
