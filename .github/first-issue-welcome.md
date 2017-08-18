@@ -1,0 +1,1 @@
+This is a template for greeting new users when they open their first issue in your repository. You can use this welcome message to provide links to resources like the contributing guidelines, code of conduct, etc.
