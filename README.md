@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# testing-things
-hhh
-=======
 
 # testing-things@
 
