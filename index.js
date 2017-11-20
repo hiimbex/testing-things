@@ -1,6 +1,6 @@
 const standard = require('standard')
 ;
-module.exports = {
+module.exports = 
   async push(event, context) {
     const push = event.payload
 
