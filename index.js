@@ -13,9 +13,7 @@ module.exports = {
 
     return Promise.all(compare.data.files.map(async file => {
       const content = await context.github.repos.getContent(context.repo({
-        path: file.filename,
-        ref: branch
-      }));
+        path: file.
       const text = Buffer.from(content.data.content, 'base64').toString();
 
       standard.lintText(text, {cwd: '', fix: true, filename: file.filename}, (err, results) => {
