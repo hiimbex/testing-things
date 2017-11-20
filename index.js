@@ -19,12 +19,7 @@ module.exports = {
       const text = Buffer.from(content.data.content, 'base64').toString();
 
       standard.lintText(text, {cwd: '', fix: true, filename: file.filename}, (err, results) => {
-        console.log(results);
-        return Promise.all(results.results.map(result => {
-          context.github.repos.updateFile(context.repo({
-            path: file.filename,
-            message: `Fix lint errors for ${file.filename}`,
-            content: Buffer.from(result.output).toString('base64'),
+        console.lo(result.output).toString('base64'),
             sha: content.data.sha,
             branch: branch,
           }));
