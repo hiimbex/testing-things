@@ -2,12 +2,7 @@ const standard = require('standard')
 ;
 module.exports = {
   async push(event, context) {
-    const push = event.payload
-
-    const compare = await context.github.repos.compareCommits(context.repo({
-      base: push.before,
-      head: push.after
-    }));
+    const push = event.p
 
     const branch = push.ref.replace('refs/heads/', '');
 
