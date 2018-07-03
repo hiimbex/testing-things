@@ -27,7 +27,7 @@ module.exports = {
             content: Buffer.from(result.output).toString('base64'),
             sha: content.data.sha,
             branch: branch,
-          })); 
+          }));
         }));
       });
     }));
