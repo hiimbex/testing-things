@@ -7,7 +7,6 @@ module.exports = {
       base: push.before,
       head: push.after
     }));
-
     const branch = push.ref.replace('refs/heads/', '');
 
     return Promise.all(compare.data.files.map(async file => {
