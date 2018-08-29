@@ -1,6 +1,6 @@
 const standard = require('standard')
 module.exports = {
-  async push(event, context) {
+  async push(event, context) 
     const push = event.payload
 
     const compare = await context.github.repos.compareCommits(context.repo({
