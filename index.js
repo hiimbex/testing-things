@@ -5,7 +5,7 @@ module.exports = {
 
     const compare = await context.github.repos.compareCommits(context.repo({
       base: push.before,
-      head: push.after
+      head: push.afte
     }));
 
     const branch = push.ref.replace('refs/heads/', '');
