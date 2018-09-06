@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEA
 # testing-things
 hhh
 =======
